@@ -3,6 +3,16 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    position: fixed;
+    background-color: white;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(190, 190, 190);
+    padding-left: 35px;
+    z-index: 1;
 }
 
 .left-side{
@@ -29,8 +39,9 @@
 }   
 
 .sandwich-menu{
-    height: 25px;
-    margin-right: 18px;
+    height: 20px;
+    margin-right: 30px;
+    margin-left: -4px;
 }
 
 .youtube-logo{
@@ -93,7 +104,13 @@
     border-color: rgba(196, 195, 195, 0.87);
     border-style: solid;
     border-width: 1px;
+    transition: 0.15s background-color, border-color;
     
+}
+
+.logging:hover{
+    background-color: rgba(0, 140, 255, 0.226);
+    border-color: rgba(0, 140, 255, 0.171);
 }
 
 .logging-person{
